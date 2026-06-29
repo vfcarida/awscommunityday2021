@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -14,17 +14,13 @@
   <meta property="og:description" content="O AWS Community Day Brasil 2021 é organizado pelos grupos de usuários AWS do Brasil." />
 
   
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/site.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Modernized Vanilla CSS and Modules -->
   <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet" />
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/mystyles.css" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Main logic script -->
+  <script type="module" src="js/site.js"></script>
 </head>
 
 <body>
@@ -392,8 +388,10 @@
     </div>
   </div>
   <script>
-    $(".buy-ticket-link").on("click", ()=> {
-        //FAZER!
+    document.querySelectorAll(".buy-ticket-link").forEach(link => {
+      link.addEventListener("click", () => {
+        // FAZER!
+      });
     });
   </script>
 </body>

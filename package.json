@@ -1,0 +1,25 @@
+{
+  "name": "awscommunityday2021",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AWS Community Day 2021 Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "aws",
+    "community",
+    "day"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^24.1.0",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
+  }
+}
